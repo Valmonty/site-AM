@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<title>SP Eventos</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+				<h1 style="float: left;">SP Eventos</h1>
+				<a href="login.html"><img style="float: right; width: 60px;" src="../img/user.png" /></a>
+				<br />
+				<br />
+				<br />
+			</header>
+			<div class="topnav" id="myTopnav">
+				<a href="../index.html">Home</a>
+				<div class="dropdown">
+					<span class="active">
+					<button class="dropbtn">Cinema
+						  <i class="fa fa-caret-down"></i>
+						</button>
+						</span>
+					<div class="dropdown-content">
+						<a href="../filmes_em_cartaz.html" class="active">Em cartaz</a>
+						<a href="../proximos_lançamentos.html">Próximos lançamentos</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Shows
+						  <i class="fa fa-caret-down"></i>
+						</button>
+					<div class="dropdown-content">
+						<a href="../proximos_shows.html">Próximos shows</a>
+						<a href="../mais_esperados_ano.html">Mais esperados do ano</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Teatro
+					      <i class="fa fa-caret-down"></i>
+					    </button>
+					<div class="dropdown-content">
+						<a href="../teatro_em_cartaz.html">Em cartaz</a>
+					</div>
+				</div>
+				<a href="../contato.html">Contato</a>
+				<div class="search-container">
+					<form>
+						<img src="../img/search.png" alt="" id="lupa">
+						<input type="search" placeholder="Pesquisa" name="search">
+					</form>
+				</div>
+				<a href="javascript:void(0); " style="font-size:15px; " class="icon " onclick="myFunction() ">&#9776;</a>
+			</div>
+
+			<nav>
+				<div class="menu_lateral">
+					<button onclick="goBack()" class="menu_lateral">Voltar</button>
+				</div>
+			</nav>
+
+			<article class="texto_menu_lateral">
+				<br>
+				<h1>Pantera Negra</h1>
+				<figure>
+					<img src="img/img_panteranegra_cartaz.jpg" name="Pantera" alt="Pantera" width="350px" height="490px"></br>
+				</figure>
+				<strong>Sinopse:</strong> Conheça a história de T'Challa, príncipe do reino de Wakanda, que perde o seu pai e viaja para os Estados Unidos, onde tem contato com os Vingadores. Entre as suas habilidades estão a velocidade, inteligência e os sentidos
+				apurados.
+				</br>
+				<br/>
+				<strong>Data de lançamento:</strong> 15 de fevereiro de 2018<br/>
+				<strong>Direção:</strong> Ryan Coogler<br/>
+				<strong>Música composta por:</strong> Ludwig Göransson<br/>
+				<strong>Elenco:</strong> Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira.<br/>
+				<br/>
+				<strong>Trailer:</strong><br/>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/wL4a4MafSjQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<br>
+				<strong>Fotos:</strong><br/>
+				<figure>
+					<img src="img/img_panteranegra_img1.jpg" name="Pantera" alt="Cena-Pantera-Negra" class="imagem_miniatura">
+					<img src="img/img_panteranegra_img2.jpg" name="Pantera" alt="Cena-Pantera-Negra" class="imagem_miniatura">
+					<img src="img/img_panteranegra_img3.jpg" name="Pantera" alt="Cena-Pantera-Negra" class="imagem_miniatura">
+					<img src="img/img_panteranegra_img4.jpg" name="Pantera" alt="Cena-Pantera-Negra" class="imagem_miniatura">
+				</figure>
+			</article>
+			<footer>Copyright &copy; 2018 SP Eventos </footer>
+		</div>
+		<script src="../js/javascript_slides.js"></script>
+	</body>
+
+</html>

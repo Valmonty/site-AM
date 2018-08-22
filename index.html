@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>SP Eventos</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1 style="float: left;">SP Eventos</h1>
+        <a href="login.html"><img style="float: right; width: 60px;" src="img/user.png" /></a>
+        <br />
+        <br />
+        <br />
+      </header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Cinema
+						  <i class="fa fa-caret-down"></i>
+						</button>
+          <div class="dropdown-content">
+            <a href="filmes_em_cartaz.html">Em cartaz</a>
+            <a href="proximos_lançamentos.html">Próximos lançamentos</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Shows
+						  <i class="fa fa-caret-down"></i>
+						</button>
+          <div class="dropdown-content">
+            <a href="proximos_shows.html">Próximos shows</a>
+            <a href="mais_esperados_ano.html">Mais esperados do ano</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Teatro
+					      <i class="fa fa-caret-down"></i>
+					    </button>
+          <div class="dropdown-content">
+            <a href="teatro_em_cartaz.html">Em cartaz</a>
+          </div>
+        </div>
+        <a href="contato.html">Contato</a>
+        <div class="search-container">
+          <form>
+            <img src="img/search.png" alt="" id="lupa">
+            <input type="search" placeholder="Pesquisa" name="search">
+          </form>
+        </div>
+        <a href="javascript:void(0); " style="font-size:15px; " class="icon " onclick="myFunction() ">&#9776;</a>
+      </div>
+
+      <body>
+        <br>
+        <div class="slideshow-container">
+          <div class="slides transicao_slide">
+            <a href="show/ozzy.html"><img class="imagem_slides" src="img/ozzy.png" style="width:100%"></a>
+          </div>
+
+          <div class="slides transicao_slide">
+            <a href="news/demi_lovato.html"><img class="imagem_slides" src="img/demi.png" style="width:100%"></a>
+          </div>
+
+          <div class="slides transicao_slide">
+            <a href="news/kaballah.html"><img class="imagem_slides" src="img/kaballah.png" style="width:100%"></a>
+          </div>
+        </div>
+        <br />
+
+        <div style="text-align:center">
+          <span class="bolinha_slides"></span>
+          <span class="bolinha_slides"></span>
+          <span class="bolinha_slides"></span>
+        </div>
+        <br>
+        <article>
+          <img class="imagem_miniatura" src="news/img/guerra_infinita.jpg" /><br />
+          <h2>Vingadores: Guerra Infinita</h2><br />
+          <p>Em cartaz até 7 de maio de 2018 <br /> Direção: Antonio Gilberto<br />
+            <a href="news/guerra_infinita_lidera_bilheteria.html">Saiba Mais</a>
+          </p>
+        </article>
+
+        <article>
+          <img class="imagem_miniatura" src="news/img/apequenasereia.jpg" /><br />
+          <h2>A Pequena Sereia</h2><br />
+          <p>Em cartaz de 1 a 23 de maio 2018 <br /> Cia Teatro Epigenia<br />
+            <a href="news/pequena_sereia.html">Saiba Mais</a>
+          </p>
+        </article>
+
+        <article>
+          <img class="imagem_miniatura" src="news/img/shakira.jpg" /><br />
+          <h2>Shakira</h2><br />
+          <p>Em cartaz de 01 de março a 29 de novembro <br /> Direção: José Roberto Jardim<br />
+            <a href="news/shakira.html">Saiba Mais</a>
+          </p>
+        </article>
+
+        <footer>Copyright &copy; 2018 SP Eventos </footer>
+        <script src="js/javascript_slides.js"></script>
+
+      </body>
+
+</html>

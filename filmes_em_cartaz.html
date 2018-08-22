@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>SP Eventos</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+				<h1 style="float: left;">SP Eventos</h1>
+				<a href="login.html"><img style="float: right; width: 60px;" src="img/user.png" /></a>
+				<br />
+				<br />
+				<br />
+			</header>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html">Home</a>
+				<div class="dropdown">
+					<span class="active">
+					<button class="dropbtn">Cinema
+						  <i class="fa fa-caret-down"></i>
+						</button>
+						</span>
+					<div class="dropdown-content">
+						<a href="filmes_em_cartaz.html" class="active">Em cartaz</a>
+						<a href="proximos_lançamentos.html">Próximos lançamentos</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Shows
+						  <i class="fa fa-caret-down"></i>
+						</button>
+					<div class="dropdown-content">
+						<a href="proximos_shows.html">Próximos shows</a>
+						<a href="mais_esperados_ano.html">Mais esperados do ano</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Teatro
+					      <i class="fa fa-caret-down"></i>
+					    </button>
+					<div class="dropdown-content">
+						<a href="teatro_em_cartaz.html">Em cartaz</a>
+					</div>
+				</div>
+				<a href="contato.html">Contato</a>
+				<div class="search-container">
+					<form>
+						<img src="img/search.png" alt="" id="lupa">
+						<input type="search" placeholder="Pesquisa" name="search">
+					</form>
+				</div>
+				<a href="javascript:void(0); " style="font-size:15px; " class="icon " onclick="myFunction() ">&#9776;</a>
+			</div>
+
+			<article>
+				<h1>Em Cartaz </h1><br /><br />
+				<img class="imagem_miniatura" src="filme/img/img_avengers_banner.jpg" /><br />
+				<h2 class="favoritos">Vingadores Guerra Infinita</h2><img class="coracao_favoritos" onclick="mudarCor(this)" src="img/coracao_vazio.png" /><br />
+				<p>Data de lançamento: 26 de abril de 2018 <br /> Direção: Anthony Russo, Joe Russo<br />
+					<a href="filme/avengers.html">Saiba Mais</a>
+				</p>
+			</article>
+
+			<article>
+				<img class="imagem_miniatura" src="filme/img/img_deadpool2_banner.jpg" /><br />
+				<h2 class="favoritos">Deadpool 2</h2><img class="coracao_favoritos" onclick="mudarCor(this)" src="img/coracao_vazio.png" /><br />
+				<p>Data de lançamento: 17 de maio de 2018 <br /> Direção: David Leitch<br />
+					<a href="filme/deadpool2.html">Saiba Mais</a>
+				</p>
+			</article>
+
+			<article>
+				<img class="imagem_miniatura" src="filme/img/img_rogueone_banner.jpg" /><br />
+				<h2 class="favoritos">Rogue One: Uma História Star Wars</h2><img class="coracao_favoritos" onclick="mudarCor(this)" src="img/coracao_vazio.png" /><br />
+				<p>Data de lançamento: 15 de dezembro de 2016 <br /> Direção: Gareth Edwards
+					<br />
+					<a href="filme/rogueone.html">Saiba Mais</a>
+				</p>
+			</article>
+
+			<article>
+				<img class="imagem_miniatura" src="filme/img/img_panteranegra_banner.jpg" /><br />
+				<h2 class="favoritos">Pantera Negra</h2><img class="coracao_favoritos" onclick="mudarCor(this)" src="img/coracao_vazio.png" /><br />
+				<p>Data de lançamento: 15 de fevereiro de 2018 (Brasil) <br /> Direção: Ryan Coogler
+					<br />
+					<a href="filme/pantera.html">Saiba Mais</a>
+				</p>
+			</article>
+
+
+			<footer>Copyright &copy; 2018 SP Eventos </footer>
+		</div>
+		<script src="js/javascript_slides.js"></script>
+	</body>
+
+</html>

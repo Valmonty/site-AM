@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>SP Eventos</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+				<h1 style="float: left;">SP Eventos</h1>
+				<a href="login.html"><img style="float: right; width: 60px;" src="img/user.png" /></a>
+				<br />
+				<br />
+				<br />
+			</header>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html">Home</a>
+				<div class="dropdown">
+					<span class="active">
+					<button class="dropbtn">Cinema
+						  <i class="fa fa-caret-down"></i>
+						</button>
+						</span>
+					<div class="dropdown-content">
+						<a href="filmes_em_cartaz.html">Em cartaz</a>
+						<a href="proximos_lançamentos.html" class="active">Próximos lançamentos</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Shows
+						  <i class="fa fa-caret-down"></i>
+						</button>
+					<div class="dropdown-content">
+						<a href="proximos_shows.html">Próximos shows</a>
+						<a href="mais_esperados_ano.html">Mais esperados do ano</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Teatro
+					      <i class="fa fa-caret-down"></i>
+					    </button>
+					<div class="dropdown-content">
+						<a href="teatro_em_cartaz.html">Em cartaz</a>
+					</div>
+				</div>
+				<a href="contato.html">Contato</a>
+				<div class="search-container">
+					<form>
+						<img src="img/search.png" alt="" id="lupa">
+						<input type="search" placeholder="Pesquisa" name="search">
+					</form>
+				</div>
+				<a href="javascript:void(0); " style="font-size:15px; " class="icon " onclick="myFunction() ">&#9776;</a>
+			</div>
+
+			<article>
+				<h1>Próximos Lançamentos</h1><br /><br />
+				<img class="imagem_miniatura" src="filme/img/img_solo_banner.jpg" /><br />
+				<h2 class="favoritos">Han Solo: Uma História Star Wars</h2><img class="coracao_favoritos" onclick="mudarCor(this)" src="img/coracao_vazio.png" /><br />
+				<p>Data de lançamento: 24 de maio de 2018 <br /> Direção: Ron Howard<br />
+					<a href="filme/solo.html">Saiba Mais</a>
+				</p>
+			</article>
+			<article>
+				<img class="imagem_miniatura" src="filme/img/img_osincriveis2_banner.jpg" /><br />
+				<h2 class="favoritos">Os Incríveis 2</h2><img class="coracao_favoritos" onclick="mudarCor(this)" src="img/coracao_vazio.png" /><br />
+				<p>Data de lançamento: 14 de junho de 2018 <br /> Direção: Brad Bird
+					<br />
+					<a href="filme/osincriveis2.html">Saiba Mais</a>
+				</p>
+			</article>
+			<article>
+				<img class="imagem_miniatura" src="filme/img/img_homemformigaeavespa_banner.jpg" /><br />
+				<h2 class="favoritos">Homem Formiga e a vespa</h2><img class="coracao_favoritos" onclick="mudarCor(this)" src="img/coracao_vazio.png" /><br />
+				<p>Data de lançamento: 5 de julho de 2018 <br /> Direção: Peyton Reed
+					<br />
+					<a href="filme/homemformigaeavespa.html">Saiba Mais</a>
+				</p>
+			</article>
+			<footer>Copyright &copy; 2018 SP Eventos </footer>
+		</div>
+		<script src="js/javascript_slides.js"></script>
+	</body>
+
+</html>

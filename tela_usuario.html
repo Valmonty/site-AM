@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>SP Eventos</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1 style="float: left;">SP Eventos</h1>
+        <a href="login.html"><img style="float: right; width: 60px;" src="img/user.png" /></a>
+        <br />
+        <br />
+        <br />
+      </header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Cinema
+						  <i class="fa fa-caret-down"></i>
+						</button>
+          <div class="dropdown-content">
+            <a href="filmes_em_cartaz.html">Em cartaz</a>
+            <a href="proximos_lançamentos.html">Próximos lançamentos</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Shows
+						  <i class="fa fa-caret-down"></i>
+						</button>
+          <div class="dropdown-content">
+            <a href="proximos_shows.html">Próximos shows</a>
+            <a href="mais_esperados_ano.html">Mais esperados do ano</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Teatro
+					      <i class="fa fa-caret-down"></i>
+					    </button>
+          <div class="dropdown-content">
+            <a href="teatro_em_cartaz.html">Em cartaz</a>
+          </div>
+        </div>
+        <a href="contato.html">Contato</a>
+        <div class="search-container">
+          <form>
+            <img src="img/search.png" alt="" id="lupa">
+            <input type="search" placeholder="Pesquisa" name="search">
+          </form>
+        </div>
+        <a href="javascript:void(0); " style="font-size:15px; " class="icon " onclick="myFunction() ">&#9776;</a>
+      </div>
+
+      <nav>
+        <br />
+        <div class="menu_lateral">
+          <div><a class="menu_lateral" href="user/cadastro_evento.html"><button class="menu_lateral">Novo evento</button></a></div>
+          <div><a class="menu_lateral" href="user/statusEvento.html"><button class="menu_lateral">Eventos</button></a></div>
+          <div><a class="menu_lateral" href="user/favoritos.html"><button class="menu_lateral">Meus favoritos</button></a></div>
+          <div><a class="menu_lateral" href="index.html"><button class="menu_lateral">Sair</button></a></div>
+        </div>
+      </nav>
+      <article>
+        <center>
+          Seja bem-vindo! Nessa seção você poderá cadastrar eventos, acessar os seus favoritos e alterar os seus dados cadastrais.
+        </center>
+      </article>
+      <footer>Copyright &copy; 2018 SP Eventos </footer>
+    </div>
+
+    <script src="js/javascript_slides.js"></script>
+  </body>
+
+</html>

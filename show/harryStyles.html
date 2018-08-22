@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>SP Eventos</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1 style="float: left;">SP Eventos</h1>
+        <a href="login.html"><img style="float: right; width: 60px;" src="../img/user.png" /></a>
+        <br />
+        <br />
+        <br />
+      </header>
+      <div class="topnav" id="myTopnav">
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Cinema
+						  <i class="fa fa-caret-down"></i>
+						</button>
+          <div class="dropdown-content">
+            <a href="../filmes_em_cartaz.html">Em cartaz</a>
+            <a href="../proximos_lançamentos.html">Próximos lançamentos</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <span class="active">
+					<button class="dropbtn">Shows
+						  <i class="fa fa-caret-down"></i>
+						</button>
+					</span>
+          <div class="dropdown-content">
+            <a href="../proximos_shows.html" class="active">Próximos shows</a>
+            <a href="../mais_esperados_ano.html">Mais esperados do ano</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Teatro
+					      <i class="fa fa-caret-down"></i>
+					    </button>
+          <div class="dropdown-content">
+            <a href="../teatro_em_cartaz.html">Em cartaz</a>
+          </div>
+        </div>
+        <a href="../contato.html">Contato</a>
+        <div class="search-container">
+          <form>
+            <img src="../img/search.png" alt="" id="lupa">
+            <input type="search" placeholder="Pesquisa" name="search">
+          </form>
+        </div>
+        <a href="javascript:void(0); " style="font-size:15px; " class="icon " onclick="myFunction() ">&#9776;</a>
+      </div>
+
+      <nav>
+        <div class="menu_lateral">
+          <button onclick="goBack()" class="menu_lateral">Voltar</button>
+        </div>
+      </nav>
+
+      <article class="texto_menu_lateral">
+        <br>
+        <h1>Harry Styles</h1><br /><br />
+        <img src="img/harry-styles.jpg" /><br /><br />
+        <h2>Informações</h2><br />
+        <p>
+          O cantor britânico Harry Styles vem ao Brasil em 2018 para duas apresentações. Os shows acontecem no Rio de Janeiro, na Jeunesse Arena, no dia 27 de maio, domingo, e em São Paulo, no Espaço das Américas, no dia 29 de maio, terça-feira. Intitulada Harry
+          Styles Live on Tour, a turnê é a primeira da carreira solo do ex-One Direction e vai trazer o cantor Leon Bridges como convidado especial. No Rio de Janeiro, os ingressos para a apresentação custam de R$ 104,00 a R$ 488,00 e são vendidos pelo
+          site Eventim. Já em São Paulo, os ingressos estão todos esgotados. O álbum autointitulado Harry Styles foi lançado em 12 de maio e subiu ao topo das paradas ao redor do mundo. Nos Estados Unidos liderou a lista Billboard 200 com o equivalente
+          a 230.000 álbuns vendidos, sendo destes 193.000 cópias físicas, fazendo história como o maior resultado numa semana de lançamento para o primeiro álbum completo de um artista masculino desde que a Nielsen Music iniciou o monitoramento de vendas
+          em 1991. O recorde americano de lançamento segue a linha do grande sucesso internacional de Harry Styles, onde o álbum alcançou o #1 em mais de 55 países, incluindo o Reino Unido, Irlanda, Canadá, Austrália, Espanha, México, Brasil, Holanda,
+          Bélgica, Polônia e também em diversos países da América Latina, Sul da Ásia e Oriente Médio.
+        </p>
+        <br/>
+        <h2>Datas e locais</h2><br />
+        <ul class="listaDatasShows">
+          <li><strong>Rio de Janeiro - 27 de maio</strong></li>
+          <li> Quando: Domingo, a partir das 19h</li>
+          <li> Local: <a href="https://www.google.com.br/maps/place/Jeunesse+Arena/@-22.9754713,-43.3905453,15z/data=!4m2!3m1!1s0x0:0x1513e478dedde462?sa=X&ved=0ahUKEwjuwdSS1O_aAhWBTJAKHUYcBNsQ_BIIngEwDQ">Jeunesse Arena</a> </li>
+          <li>R$ 104,00 a R$ 488,00 - <a href="http://www.eventim.com.br/harry-styles-2018-rio-de-janeiro-ingressos.html?affiliate=BR1&doc=artistPages%2Ftickets&fun=artist&action=tickets&erid=1944108&kuid=539263">Eventim</a></li>
+          <br/>
+          <li><strong>São Paulo - 29 DE MAIO</strong></li>
+          <li> Quando: Terça-feira, a partir das 20h</li>
+          <li> Local:
+            <a href="https://www.google.com.br/maps/place/Espa%C3%A7o+das+Am%C3%A9ricas/@-23.5280492,-46.6680454,15z/data=!4m5!3m4!1s0x0:0x55b43bfc3a4cde14!8m2!3d-23.5280492!4d-46.6680454">
+                Espaço das Américas
+              </a>
+          </li>
+          <li>Ingressos: R$ 179,00 a R$ 588,00 - <a href="http://www.eventim.com.br/harry-styles-2018-sao-paulo-ingressos.html?affiliate=BR1&doc=artistPages%2Ftickets&fun=artist&action=tickets&erid=1944107&kuid=539263">Eventim</a> - <strong>ingressos esgotados</strong></li>
+          <br/>
+        </ul>
+        <p class="fonteTextoCentralizada">
+          Fonte: <a href="https://www.guiadasemana.com.br/shows/noticia/ozzy-osbourne-no-brasil-em-2018" target="_blank">https://www.guiadasemana.com.br/shows/noticia/ozzy-osbourne-no-brasil-em-2018</a>
+        </p>
+
+      </article>
+      <footer>Copyright &copy; 2018 SP Eventos </footer>
+    </div>
+    <script src="../js/javascript_slides.js"></script>
+  </body>
+
+</html>

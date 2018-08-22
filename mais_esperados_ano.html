@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>SP Eventos</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+				<h1 style="float: left;">SP Eventos</h1>
+				<a href="login.html"><img style="float: right; width: 60px;" src="img/user.png" /></a>
+				<br />
+				<br />
+				<br />
+			</header>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html">Home</a>
+				<div class="dropdown">
+					<button class="dropbtn">Cinema
+						  <i class="fa fa-caret-down"></i>
+						</button>
+					<div class="dropdown-content">
+						<a href="filmes_em_cartaz.html">Em cartaz</a>
+						<a href="proximos_lançamentos.html">Próximos lançamentos</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<span class="active">
+					<button class="dropbtn">Shows
+						  <i class="fa fa-caret-down"></i>
+						</button>
+					</span>
+					<div class="dropdown-content">
+						<a href="proximos_shows.html">Próximos shows</a>
+						<a href="mais_esperados_ano.html" class="active">Mais esperados do ano</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Teatro
+					      <i class="fa fa-caret-down"></i>
+					    </button>
+					<div class="dropdown-content">
+						<a href="teatro_em_cartaz.html">Em cartaz</a>
+					</div>
+				</div>
+				<a href="contato.html">Contato</a>
+				<div class="search-container">
+					<form>
+						<img src="img/search.png" alt="" id="lupa">
+						<input type="search" placeholder="Pesquisa" name="search">
+					</form>
+				</div>
+				<a href="javascript:void(0); " style="font-size:15px; " class="icon " onclick="myFunction() ">&#9776;</a>
+			</div>
+
+			<!-- Ozzy -->
+			<article>
+				<h1>Mais esperados do ano</h1><br /><br />
+				<img class="imagem_miniatura" src="show/img/ozzy-osbourne-shutterstock.jpg" /><br />
+				<h2 class="favoritos">Ozzy Osbourne</h2><img class="coracao_favoritos" onclick="mudarCor(this)" src="img/coracao_vazio.png" /><br />
+				<p>O cantor Ozzy Osbourne vem ao Brasil em maio de 2018 com sua turnê de despedida. Na ocasião, Ozzy irá se apresentar em quatro cidades: São Paulo, no Allianz Parque, dia 13 de maio; Curitiba, na Pedreira Paulo Leminski, dia 16 de maio; Belo Horizonte,
+					na Esplanada do Mineirão, dia 18 de maio; e Rio de Janeiro, na Apoteose, dia 20 de maio.<br />
+					<a href="show/ozzy.html">Saiba Mais</a>
+				</p>
+			</article>
+
+
+			<!-- Simple Plan -->
+			<article>
+				<img class="imagem_miniatura" src="show/img/simple-plan.jpg" /><br />
+				<h2 class="favoritos">Simple Plan</h2><img class="coracao_favoritos" onclick="mudarCor(this)" src="img/coracao_vazio.png" /><br />
+				<p>O Simple Plan volta ao Brasil para cinco shows durante os meses de maio e junho, na turnê que celebra os 15 anos de lançamento do primeiro álbum do grupo, "No Pads, No Helmets… Just Balls". As apresentações acontecem em Porto Alegre (25 de maio, no
+					no Pepsi on Stage); Curitiba (26 de maio, no Live Curitiba); São Paulo (27 de maio, no Audio); Rio de Janeiro (30 de maio, no Circo Voador); e Uberlância (1 de junho, no Sabiázinho). <br />
+					<a href="show/simplePlan.html">Saiba Mais</a>
+				</p>
+			</article>
+
+			<!-- Roger Waters -->
+			<article>
+				<img class="imagem_miniatura" src="show/img/roger-waters-credit-kate-izor.jpg" /><br />
+				<h2 class="favoritos">Roger Waters</h2><img class="coracao_favoritos" onclick="mudarCor(this)" src="img/coracao_vazio.png" /><br />
+				<p>
+					O artista Roger Waters retorna à América do Sul em 2018 com uma nova turnê, "Roger Waters - Us + Them". No país, Roger irá fazer sete apresentações: São Paulo, dia 09 de outubro; em Brasília, dia 13 de outubro; em Salvador, dia 17 de outubro; em Belo
+					Horizonte, dia 21 de outubro; no Rio de Janeiro, dia 24 de outubro; em Curitiba, dia 27 de outubro; e em Porto Alegre, dia 30 de outubro.
+					<br />
+					<a href="show/rogerWaters.html">Saiba Mais</a>
+				</p>
+			</article>
+
+			<footer>Copyright &copy; 2018 SP Eventos </footer>
+		</div>
+		<script src="js/javascript_slides.js"></script>
+	</body>
+
+</html>
